@@ -1,0 +1,25 @@
+#VARIABLES
+
+#This list of variables is the data from the downloadable file
+
+- x_train 
+- y_train 
+- x_test 
+- y_test 
+- subject_train 
+- subject_test
+
+#Then the code merge the dataset
+
+- x_data
+- y_data  
+- subject_data
+
+
+#all_data 
+
+merges x_data, y_data and subject_data in a complete dataset.
+
+#averages_data
+
+contains the relevant averages which will be later stored in a .txt file. ddply() fused to apply colMeans().
